@@ -16,6 +16,12 @@ export default class Kartya {
         this.gomb.on("click", () => { // a nyílfüggvény és a névtelen func függ között az a különbség a nyíl a konkrét osztálypéldányra mutat(a teljes objektumot), 
             //a func névtelen függvény esetén pedig arra a html elemre, amelyik kiváltotta az eseményt
             console.log(this) 
+            // saját esemény létrehozása
+            const e = new CustomEvent("kivalaszt", {detail:this.#kutya}); //információkat ad át, detail kötelező kulcs
+            window.dispatchEvent(e);
+
+
+
 });
     }
 

@@ -6,6 +6,7 @@ export function cimKiiras(cim){ //így másik modulban is használható
     console.log(h1Elem); // html DOM típusú elemet ad vissza
 
     h1Elem.append(`<p> ${cim}</p>`);
+    
 
 };
 

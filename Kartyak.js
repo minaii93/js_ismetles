@@ -6,6 +6,7 @@ export default class Kartyak{
         this.#lista = lista;
 
         this.szuloElem = szuloElem;
+        this.szuloElem.empty(); //nem fog duplikálni 
 
         this.#kartyaKiir()
     }

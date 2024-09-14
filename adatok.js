@@ -15,6 +15,11 @@ export const kutyaLista = [
         nev : "Morzsa", 
         kora: 3,
         neme: "nőstény"
+    },
+    {
+        nev: "Lulu",
+        kora: 2,
+        neme: "nőstény"
     }
 
 ];
